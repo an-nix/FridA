@@ -56,7 +56,7 @@ namespace TestApp
 
 
 
-            var streamTask = await client.PostAsync("https://localhost:32778/api/recipe", s) ;
+            var streamTask = await client.PostAsync("https://localhost:51803/api/recipe", s) ;
 
             //var stringTask = client.GetStringAsync("https://api.github.com/orgs/dotnet/repos");
             //var streamTask = client.GetStreamAsync("https://api.github.com/orgs/dotnet/repos");
