@@ -3,7 +3,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 
-namespace Scheduler.Models
+namespace FridA.Models
 {
     public class Schedule
     {

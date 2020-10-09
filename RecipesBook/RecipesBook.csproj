@@ -11,5 +11,7 @@
     <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
   </ItemGroup>
 
+  <Import Project="..\SharedModels\SharedModels.projitems" Label="Shared" />
+
 
 </Project>

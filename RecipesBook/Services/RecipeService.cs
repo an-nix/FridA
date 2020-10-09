@@ -1,5 +1,6 @@
 ﻿using MongoDB.Driver;
 using RecipesBook.Models;
+using FridA.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

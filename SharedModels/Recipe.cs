@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RecipesBook.Models
+namespace FridA.Models
 {
     public class Recipe
     {

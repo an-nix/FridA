@@ -2,16 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>fcd9ccf5-f769-4f97-9fc1-c559c5734228</UserSecretsId>
+    <UserSecretsId>9670d2cb-f74f-477d-8618-872f9b815140</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
-    <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
   </ItemGroup>
-
-  <Import Project="..\SharedModels\SharedModels.projitems" Label="Shared" />
-
 
 </Project>

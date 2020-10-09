@@ -1,4 +1,5 @@
 ﻿using Scheduler.Models;
+using FridA.Models;
 using Scheduler.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
