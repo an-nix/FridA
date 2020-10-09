@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FridA", "FridA\FridA.csproj", "{9BF92532-6BDA-4C6E-90FB-30EFA807BA29}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler", "Scheduler\Scheduler.csproj", "{8D727140-452B-4386-8F76-885E2BB0C449}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecipesBook", "RecipesBook\RecipesBook.csproj", "{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}"
@@ -19,17 +17,12 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SharedModels\SharedModels.projitems*{61c874fa-c5c0-4dfe-952e-af826dd7f1ab}*SharedItemsImports = 5
 		SharedModels\SharedModels.projitems*{8d727140-452b-4386-8f76-885e2bb0c449}*SharedItemsImports = 5
-		SharedModels\SharedModels.projitems*{f8378ee1-d889-4365-9ae0-2a8b270657ec}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BF92532-6BDA-4C6E-90FB-30EFA807BA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BF92532-6BDA-4C6E-90FB-30EFA807BA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BF92532-6BDA-4C6E-90FB-30EFA807BA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BF92532-6BDA-4C6E-90FB-30EFA807BA29}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D727140-452B-4386-8F76-885E2BB0C449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D727140-452B-4386-8F76-885E2BB0C449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D727140-452B-4386-8F76-885E2BB0C449}.Release|Any CPU.ActiveCfg = Release|Any CPU
