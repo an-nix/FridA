@@ -3,8 +3,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:49246",
-      "sslPort": 44369
+      "applicationUrl": "http://localhost:62187",
+      "sslPort": 44327
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "RecipesBook": {
+    "Scheduler": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
@@ -29,7 +29,7 @@
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/weatherforecast",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/schedule",
       "publishAllPorts": true,
       "useSSL": true,
     }

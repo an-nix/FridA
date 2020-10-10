@@ -2,8 +2,7 @@
 using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace FridA.Models
 {
@@ -23,11 +22,9 @@ namespace FridA.Models
 
     }
 
-    public class Ingredient
+    public class Ingredient : WarehouseFood
     {
-        public string name { get; set; }
-
-        public double quantity { get; set; }
+         public double quantity { get; set; }
 
     }
 }

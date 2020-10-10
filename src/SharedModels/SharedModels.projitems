@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Recipe.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Schedule.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Warehouse.cs" />
   </ItemGroup>
 </Project>
