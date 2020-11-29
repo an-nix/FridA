@@ -15,6 +15,10 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedModels", "src\SharedM
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9C68B44B-5244-4212-9979-B61C9DF10970}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56B14B86-43AA-400F-963C-E64D97F62377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "warehouse", "src\warehouse\warehouse.csproj", "{B8D39A6C-3190-437B-9B2D-284D75C7FFB0}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		src\SharedModels\SharedModels.projitems*{61c874fa-c5c0-4dfe-952e-af826dd7f1ab}*SharedItemsImports = 5
@@ -42,6 +46,10 @@ Global
 		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D39A6C-3190-437B-9B2D-284D75C7FFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D39A6C-3190-437B-9B2D-284D75C7FFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D39A6C-3190-437B-9B2D-284D75C7FFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D39A6C-3190-437B-9B2D-284D75C7FFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D727140-452B-4386-8F76-885E2BB0C449} = {9C68B44B-5244-4212-9979-B61C9DF10970}
 		{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB} = {9C68B44B-5244-4212-9979-B61C9DF10970}
+		{B8D39A6C-3190-437B-9B2D-284D75C7FFB0} = {56B14B86-43AA-400F-963C-E64D97F62377}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BA7293B-43D2-44BE-9BAD-CC6FFA347B95}
