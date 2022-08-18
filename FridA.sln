@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler", "src\API\Scheduler\Scheduler.csproj", "{8D727140-452B-4386-8F76-885E2BB0C449}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes", "src\API\Recipes\Recipes.csproj", "{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FridaUi", "src\FridaUi\FridaUi.csproj", "{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}"
-EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedModels", "src\SharedModels\SharedModels.shproj", "{F8378EE1-D889-4365-9AE0-2A8B270657EC}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Models", "src\Models\Models.shproj", "{F8378EE1-D889-4365-9AE0-2A8B270657EC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dbg", "dbg", "{9C68B44B-5244-4212-9979-B61C9DF10970}"
 EndProject
@@ -19,15 +17,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6C99DAE-8A4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{110EF6D7-B6DE-424E-B73E-01C64D5F5EC7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarehouseManager", "src\WarehouseManager\WarehouseManager.csproj", "{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse", "src\Warehouse\Warehouse.csproj", "{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\SharedModels\SharedModels.projitems*{61c874fa-c5c0-4dfe-952e-af826dd7f1ab}*SharedItemsImports = 5
-		src\SharedModels\SharedModels.projitems*{8d727140-452b-4386-8f76-885e2bb0c449}*SharedItemsImports = 5
-		src\SharedModels\SharedModels.projitems*{ca6cb3ce-b9c6-46b9-8fcd-10f887749fc5}*SharedItemsImports = 5
-		src\SharedModels\SharedModels.projitems*{f8378ee1-d889-4365-9ae0-2a8b270657ec}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -41,14 +33,6 @@ Global
 		{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F645507E-2821-4157-9CFB-1B13C5357D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F645507E-2821-4157-9CFB-1B13C5357D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F645507E-2821-4157-9CFB-1B13C5357D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F645507E-2821-4157-9CFB-1B13C5357D41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,12 +44,13 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D727140-452B-4386-8F76-885E2BB0C449} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
 		{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
-		{F645507E-2821-4157-9CFB-1B13C5357D41} = {9C68B44B-5244-4212-9979-B61C9DF10970}
-		{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
-		{F8378EE1-D889-4365-9AE0-2A8B270657EC} = {110EF6D7-B6DE-424E-B73E-01C64D5F5EC7}
+		{F8378EE1-D889-4365-9AE0-2A8B270657EC} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
 		{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BA7293B-43D2-44BE-9BAD-CC6FFA347B95}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Models\Models.projitems*{f8378ee1-d889-4365-9ae0-2a8b270657ec}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
