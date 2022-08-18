@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler", "src\API\Schedu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes", "src\API\Recipes\Recipes.csproj", "{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "test\TestApp\TestApp.csproj", "{F645507E-2821-4157-9CFB-1B13C5357D41}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FridaUi", "src\FridaUi\FridaUi.csproj", "{CA6CB3CE-B9C6-46B9-8FCD-10F887749FC5}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedModels", "src\SharedModels\SharedModels.shproj", "{F8378EE1-D889-4365-9AE0-2A8B270657EC}"
