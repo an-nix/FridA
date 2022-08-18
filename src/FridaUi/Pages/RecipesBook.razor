@@ -1,7 +1,28 @@
 ﻿@page "/recipesbook"
+@using FridA.Models
+@using System.Net.Http
+@inject HttpClient Http
 
 <h3>RecipesBook</h3>
 
+<table class="table">
+    <thead>
+        <tr>@TableHeader</tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
 @code {
+
+
+    [Parameter]
+    public RenderFragment TableHeader { get; set; }
+
+    [Parameter]
+    public RenderFragment<Recipe> RowTemplate { get; set; }
+
+    [Parameter]
+    public IReadOnlyList<Recipe> Items { get; set; }
 
 }
