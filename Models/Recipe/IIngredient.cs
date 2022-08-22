@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-using SharedModels.Product;
+using System.Threading.Tasks;
+using Models.Product;
 
-namespace SharedModels.Recipe
+namespace Models.Recipe
 {
     public interface IIngredient
     {
-        double Quantity { get; set; }
         IProduct Product { get; set; }
+        double Quantity { get; set; }
     }
 }
