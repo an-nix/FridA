@@ -16,4 +16,6 @@ namespace Models.MasterData
         public string? SiUnit { get; set; }
         public float SiRatio { get; set; }
     }
+
+
 }
