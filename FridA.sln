@@ -3,26 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduler", "src\API\Scheduler\Scheduler.csproj", "{8D727140-452B-4386-8F76-885E2BB0C449}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes", "src\API\Recipes\Recipes.csproj", "{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dbg", "dbg", "{9C68B44B-5244-4212-9979-B61C9DF10970}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{B30CA09E-7EBC-4451-823B-6B9E33F40D2E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{110EF6D7-B6DE-424E-B73E-01C64D5F5EC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "models", "src\models\Models.csproj", "{4A11C130-F2C4-466E-A71B-FBCC68A40BD0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Warehouse", "src\Warehouse\Warehouse.csproj", "{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{4A11C130-F2C4-466E-A71B-FBCC68A40BD0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{BFD6C865-44F0-42D0-A10A-9F92AAE4F2F5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{AA8DCFBF-8A51-4C0C-84FF-92B6F3178587}"
-EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,12 +47,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{8D727140-452B-4386-8F76-885E2BB0C449} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
-		{61C874FA-C5C0-4DFE-952E-AF826DD7F1AB} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
-		{4E7AA2B8-5F7A-4B1E-A516-F748AF8DDDC1} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
 		{4A11C130-F2C4-466E-A71B-FBCC68A40BD0} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
-		{BFD6C865-44F0-42D0-A10A-9F92AAE4F2F5} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
-		{AA8DCFBF-8A51-4C0C-84FF-92B6F3178587} = {E6C99DAE-8A46-4A33-ACB8-EF83457A2DC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BA7293B-43D2-44BE-9BAD-CC6FFA347B95}
